@@ -7,4 +7,4 @@ services:
     container_name: docker-git
     command: tail -F anything
     volumes:
-      - /Users/jacobo/Documents/santander-wp-docker-dev:/usr/src/santander-wp-docker-dev
+      - /host/path:/guest/path
